@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="hexo-theme" content="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.33.1" theme-name="Stellar" theme-version="1.33.1">
   
-  <meta name="robots" content="noindex,follow">
+  
   <meta name="generator" content="Hexo 7.3.0">
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   
@@ -17,20 +17,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000">
   <meta name="theme-color" content="#f9fafb">
-  <title>标签 - Sanhai's Blogs</title>
+  <title>糖果公园 - 题解 - Sanhai's Blogs</title>
 
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="标签">
-<meta property="og:url" content="http://example.com/tags/">
+    <meta name="description" content="糖果公园 题解题目大意给定一棵 $n$ 个节点的树，每个节点有一种糖果 $C_i$ (共 m 种)。每种糖果有美味值 $V_i$，品尝第 $k$ 次同种糖果的新奇感为 $W_k$。游客从 $u$ 走到 $v$ 的愉悦度为路径上所有节点 $i$ 的 $V_{C_i}$ × $W_{count(C_i)}$ ​之和，其中$count(C_i)$ 是此种糖果在当前路径上出现的次数。需要支持两种操作： 修">
+<meta property="og:type" content="article">
+<meta property="og:title" content="糖果公园 - 题解">
+<meta property="og:url" content="http://example.com/2025/12/27/P4070%E7%B3%96%E6%9E%9C%E5%85%AC%E5%9B%AD%E9%A2%98%E8%A7%A3/">
 <meta property="og:site_name" content="Sanhai&#39;s Blogs">
+<meta property="og:description" content="糖果公园 题解题目大意给定一棵 $n$ 个节点的树，每个节点有一种糖果 $C_i$ (共 m 种)。每种糖果有美味值 $V_i$，品尝第 $k$ 次同种糖果的新奇感为 $W_k$。游客从 $u$ 走到 $v$ 的愉悦度为路径上所有节点 $i$ 的 $V_{C_i}$ × $W_{count(C_i)}$ ​之和，其中$count(C_i)$ 是此种糖果在当前路径上出现的次数。需要支持两种操作： 修">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-12-27T13:47:20.000Z">
+<meta property="article:modified_time" content="2025-12-31T03:46:38.866Z">
 <meta property="article:author" content="Sanhai">
+<meta property="article:tag" content="题解">
 <meta name="twitter:card" content="summary">
   
   
   
-  
+  <meta name="keywords" content="题解">
 
   <!-- feed -->
   
@@ -46,14 +51,14 @@
 
   
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Website","@id":"http://example.com","author":{"@type":"Person","name":"Sanhai","sameAs":[]},"name":"Sanhai's Blogs","description":"","url":"http://example.com"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Sanhai","sameAs":[]},"dateCreated":"2025-12-27T13:47:20+00:00","dateModified":"2025-12-31T03:46:38+00:00","datePublished":"2025-12-27T13:47:20+00:00","description":"","headline":"糖果公园 - 题解","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2025/12/27/P4070%E7%B3%96%E6%9E%9C%E5%85%AC%E5%9B%AD%E9%A2%98%E8%A7%A3/"},"publisher":{"@type":"Organization","name":"Sanhai","sameAs":[]},"url":"http://example.com/2025/12/27/P4070%E7%B3%96%E6%9E%9C%E5%85%AC%E5%9B%AD%E9%A2%98%E8%A7%A3/","keywords":"题解","thumbnailUrl":null,"image":[]}</script>
   
 
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 </head>
 <body>
 
-<div class="l_body index" id="start" layout="tags" type="undefined" ><aside class="l_left"><div class="sidebg"></div><div class="leftbar-container">
+<div class="l_body content" id="start" layout="post" type="tech" ><aside class="l_left"><div class="sidebg"></div><div class="leftbar-container">
 
 
 <header class="header"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://cdn.luogu.com.cn/upload/image_hosting/uy2m38au.png" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main">Sanhai's Blogs</div><div class="sub normal cap">Sanhai的个人记录</div><div class="sub hover cap" style="opacity:0"> 算法-技术-个人-小憩</div></a></div></header>
@@ -65,38 +70,77 @@
 <div class="widgets">
 <div class="search-wrapper" id="search-wrapper"><form class="search-form"><a class="search-button" onclick="document.getElementById(&quot;search-input&quot;).focus();"><svg t="1705074644177" viewBox="0 0 1025 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1560" width="200" height="200"><path d="M1008.839137 935.96571L792.364903 719.491476a56.783488 56.783488 0 0 0-80.152866 0 358.53545 358.53545 0 1 1 100.857314-335.166073 362.840335 362.840335 0 0 1-3.689902 170.145468 51.248635 51.248635 0 1 0 99.217358 26.444296 462.057693 462.057693 0 1 0-158.255785 242.303546l185.930047 185.725053a51.248635 51.248635 0 0 0 72.568068 0 51.248635 51.248635 0 0 0 0-72.978056z" p-id="1561"></path><path d="M616.479587 615.969233a50.428657 50.428657 0 0 0-61.498362-5.534852 174.655348 174.655348 0 0 1-177.525271 3.484907 49.403684 49.403684 0 0 0-58.833433 6.76482l-3.074918 2.869923a49.403684 49.403684 0 0 0 8.609771 78.10292 277.767601 277.767601 0 0 0 286.992355-5.739847 49.403684 49.403684 0 0 0 8.404776-76.667958z" p-id="1562"></path></svg></a><input type="text" class="search-input" id="search-input" placeholder="站内搜索"></form><div id="search-result"></div><div class="search-no-result">没有找到内容！</div></div>
 
+
+
 <widget class="widget-wrapper recent post-list"><div class="widget-header dis-select"><span class="name">最近更新</span></div><div class="widget-body fs14"><a class="item title" href="/2026/01/28/Hydro-ai/"><span class="title">Hydro-ai</span></a><a class="item title" href="/2025/12/25/P9478-NOI2023-%E6%96%B9%E6%A0%BC%E6%9F%93%E8%89%B2A%E9%A2%98%E8%A7%A3/"><span class="title">方格染色 - 题解</span></a><a class="item title" href="/2025/12/27/P4070%E7%B3%96%E6%9E%9C%E5%85%AC%E5%9B%AD%E9%A2%98%E8%A7%A3/"><span class="title">糖果公园 - 题解</span></a><a class="item title" href="/2025/12/11/T706110%E5%AD%A6%E4%B9%A0%E5%B0%8F%E7%BB%84%E9%A2%98%E8%A7%A3/"><span class="title">学习小组 - 题解</span></a><a class="item title" href="/2025/12/04/T706068%E9%99%8D%E6%B0%B4%E9%A2%98%E8%A7%A3/"><span class="title">降水 - 题解</span></a><a class="item title" href="/2025/12/04/T706109%E6%9C%80%E5%B0%8F%E7%9A%84x%E9%A2%98%E8%A7%A3/"><span class="title">最小的x - 题解</span></a><a class="item title" href="/2025/11/27/Sam%E7%9A%84%E6%89%93%E5%AD%97%E8%AE%A1%E5%88%92/"><span class="title">Sam的打字计划 - 题解</span></a><a class="item title" href="/2025/11/29/Sanhai-loading/"><span class="title">Sanhai-loading</span></a><a class="item title" href="/2025/12/25/hello-world/"><span class="title">Hello World</span></a></div></widget>
 </div>
 
 </div></aside><div class="l_main" id="main">
 
-<header class="header mobile-only"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://cdn.luogu.com.cn/upload/image_hosting/uy2m38au.png" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main">Sanhai's Blogs</div><div class="sub normal cap">Sanhai的个人记录</div><div class="sub hover cap" style="opacity:0"> 算法-技术-个人-小憩</div></a></div></header>
 
 
-  
-  
-  
 
-<div class="navbar top"><div class="navbar-blur"><div class="navbar-container"><nav class="post"><a href="/">近期发布</a><a href="/categories/">分类</a><a class="active" href="/tags/">标签</a><a href="/archives/">归档</a></nav></div></div></div>
-  <div class='post-list'>
-    <article class='' id='tags'>
+
+<div class="article banner top">
+  <div class="content">
+    <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
+<span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E9%A2%98%E8%A7%A3/">题解</a></div>
+<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2025-12-27T13:47:20.000Z">2025-12-27</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2025-12-31T03:46:38.866Z">2025-12-31</time></span></div></div></div>
+    
+    <div class="bottom only-title">
       
-        <a class='tag' href="/tags/%E9%A2%98%E8%A7%A3/">
-          <span class='name'>题解</span>
-        </a>
-      
-        <a class='tag' href="/tags/SanhaiOJ%E5%8A%A0%E8%BD%BD%E5%8A%A8%E7%94%BB/">
-          <span class='name'>SanhaiOJ加载动画</span>
-        </a>
-      
-    </article>
+      <div class="text-area">
+        <h1 class="text title"><span>糖果公园 - 题解</span></h1>
+        
+      </div>
+    </div>
+    
   </div>
+  </div><article class="md-text content"><h1 id="糖果公园-题解"><a href="#糖果公园-题解" class="headerlink" title="糖果公园 题解"></a>糖果公园 题解</h1><h2 id="题目大意"><a href="#题目大意" class="headerlink" title="题目大意"></a>题目大意</h2><p>给定一棵 $n$ 个节点的树，每个节点有一种糖果 $C_i$ (共 m 种)。每种糖果有美味值 $V_i$，品尝第 $k$ 次同种糖果的新奇感为 $W_k$。游客从 $u$ 走到 $v$ 的愉悦度为路径上所有节点 $i$ 的 $V_{C_i}$ × $W_{count(C_i)}$ ​之和，其中<br>$count(C_i)$ 是此种糖果在当前路径上出现的次数。<br>需要支持两种操作：</p>
+<p>修改某个节点的糖果种类。<br>查询某条路径的愉悦度。</p>
+<h2 id="算法分析"><a href="#算法分析" class="headerlink" title="算法分析"></a>算法分析</h2><p>一看就指了解这题是 <strong>树上带修改莫队</strong> 问题。与序列莫队不同，本解法采用 DFN序结合路径移动 的方式，直接处理树上路径。<br>核心思路：DFN序结合带修莫队<br>DFN序预处理：通过DFS得到每个节点的DFN序（深度优先搜索序），用于莫队的块划分。<br>路径移动：使用 work 函数通过不断移动到父节点来改变当前路径。对于路径 $(u, v)$，通过移动端点到LCA来添加或移除节点。<br>处理修改：增加时间维度 $t$，记录修改操作。在莫队移动左右指针时，同时移动时间指针来处理修改。<br>LCA处理：关键点在于，路径移动后，LCA节点可能未被包含，因此需要在计算答案前临时添加LCA点，计算后移除。<br>块大小设置：通常取 $B = n^{2/3}$，总时间复杂度为 $O(n^{5/3})$。</p>
+<h2 id="CODE"><a href="#CODE" class="headerlink" title="CODE"></a>CODE</h2><figure class="highlight cpp"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">200005</span>;</span><br><span class="line"><span class="type">int</span> n, M, m, dfn[N], idx, vv[N], ww[N], b[N], a[N], lg[N], f[N][<span class="number">20</span>], d[N], res, ans[N];</span><br><span class="line"><span class="type">int</span> B = <span class="number">200</span>;</span><br><span class="line">bitset&lt;N&gt;ex;</span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">node</span>{</span><br><span class="line">    <span class="type">int</span> l, r, id, t;</span><br><span class="line">}q[N], qr[N];</span><br><span class="line">vector&lt;<span class="type">int</span>&gt;v[N];</span><br><span class="line"><span class="type">bool</span> <span class="keyword">operator</span> &lt; (node x, node y) {</span><br><span class="line">    <span class="type">int</span> bx = dfn[x.l] / B, by = dfn[y.l] / B;</span><br><span class="line">    <span class="keyword">if</span> (bx != by) <span class="keyword">return</span> bx &lt; by;</span><br><span class="line">    <span class="type">int</span> cx = dfn[x.r] / B, cy = dfn[y.r] / B;</span><br><span class="line">    <span class="keyword">if</span> (cx != cy) <span class="keyword">return</span> cx &lt; cy;</span><br><span class="line">    <span class="keyword">return</span> x.t &lt; y.t;</span><br><span class="line">}</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> fa)</span> </span>{</span><br><span class="line">    dfn[x] = ++idx;</span><br><span class="line">    d[x] = d[fa] + <span class="number">1</span>;</span><br><span class="line">    f[x][<span class="number">0</span>] = fa;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">auto</span> to : v[x]) {</span><br><span class="line">        <span class="keyword">if</span> (to != fa) {</span><br><span class="line">            <span class="built_in">dfs</span>(to, x);</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">lca</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> y)</span> </span>{</span><br><span class="line">    <span class="keyword">if</span> (d[x] &lt; d[y]) <span class="built_in">swap</span>(x, y);</span><br><span class="line">    <span class="type">int</span> diff = d[x] - d[y];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; diff; ++i) {</span><br><span class="line">        <span class="keyword">if</span> (diff &amp; <span class="number">1</span>) x = f[x][i];</span><br><span class="line">        diff &gt;&gt;= <span class="number">1</span>;</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">if</span> (x == y) <span class="keyword">return</span> x;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = lg[n]; i &gt;= <span class="number">0</span>; i--) {</span><br><span class="line">        <span class="keyword">if</span> (f[x][i] != f[y][i]) {</span><br><span class="line">            x = f[x][i];</span><br><span class="line">            y = f[y][i];</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">return</span> f[x][<span class="number">0</span>];</span><br><span class="line">}</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">add</span><span class="params">(<span class="type">int</span> x)</span> </span>{</span><br><span class="line">    b[a[x]]++;</span><br><span class="line">    res += vv[a[x]] * ww[b[a[x]]];</span><br><span class="line">}</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">del</span><span class="params">(<span class="type">int</span> x)</span> </span>{</span><br><span class="line">    res -= vv[a[x]] * ww[b[a[x]]];</span><br><span class="line">    b[a[x]]--;</span><br><span class="line">}</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">work</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> t)</span> </span>{</span><br><span class="line">    <span class="type">int</span> l = <span class="built_in">lca</span>(x, t);</span><br><span class="line">    <span class="keyword">while</span> (x != l) {</span><br><span class="line">        <span class="keyword">if</span> (ex[x]) {</span><br><span class="line">            ex[x] = <span class="number">0</span>;</span><br><span class="line">            <span class="built_in">del</span>(x);</span><br><span class="line">        } <span class="keyword">else</span> {</span><br><span class="line">            ex[x] = <span class="number">1</span>;</span><br><span class="line">            <span class="built_in">add</span>(x);</span><br><span class="line">        }</span><br><span class="line">        x = f[x][<span class="number">0</span>];</span><br><span class="line">    }</span><br><span class="line">    x = t;</span><br><span class="line">    <span class="keyword">while</span> (x != l) {</span><br><span class="line">        <span class="keyword">if</span> (ex[x]) {</span><br><span class="line">            ex[x] = <span class="number">0</span>;</span><br><span class="line">            <span class="built_in">del</span>(x);</span><br><span class="line">        } <span class="keyword">else</span> {</span><br><span class="line">            ex[x] = <span class="number">1</span>;</span><br><span class="line">            <span class="built_in">add</span>(x);</span><br><span class="line">        }</span><br><span class="line">        x = f[x][<span class="number">0</span>];</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">change</span><span class="params">(<span class="type">int</span> x, <span class="type">int</span> y)</span> </span>{</span><br><span class="line">    <span class="keyword">if</span> (ex[x]) {</span><br><span class="line">        <span class="built_in">del</span>(x);</span><br><span class="line">        a[x] = y;</span><br><span class="line">        <span class="built_in">add</span>(x);</span><br><span class="line">    } <span class="keyword">else</span> {</span><br><span class="line">        a[x] = y;</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>{</span><br><span class="line">    cin &gt;&gt; n &gt;&gt; M &gt;&gt; m;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt;= n; i++) {</span><br><span class="line">        lg[i] = lg[i &gt;&gt; <span class="number">1</span>] + <span class="number">1</span>;</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= M; i++) cin &gt;&gt; vv[i];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) cin &gt;&gt; ww[i];</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; n; i++) {</span><br><span class="line">        <span class="type">int</span> x, y;</span><br><span class="line">        cin &gt;&gt; x &gt;&gt; y;</span><br><span class="line">        v[x].<span class="built_in">push_back</span>(y);</span><br><span class="line">        v[y].<span class="built_in">push_back</span>(x);</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) cin &gt;&gt; a[i];</span><br><span class="line"></span><br><span class="line">    idx = <span class="number">0</span>;</span><br><span class="line">    <span class="built_in">dfs</span>(<span class="number">1</span>, <span class="number">0</span>);</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= lg[n]; i++) {</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">1</span>; j &lt;= n; j++) {</span><br><span class="line">            f[j][i] = f[f[j][i - <span class="number">1</span>]][i - <span class="number">1</span>];</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> qcnt = <span class="number">0</span>, tcnt = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(<span class="built_in">pow</span>((<span class="type">double</span>)n, <span class="number">2.0</span>/<span class="number">3.0</span>) &gt; <span class="number">1</span>){</span><br><span class="line">        B = <span class="built_in">pow</span>((<span class="type">double</span>)n, <span class="number">2.0</span>/<span class="number">3.0</span>);</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">else</span>{</span><br><span class="line">        B = <span class="number">1</span>;</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= m; i++) {</span><br><span class="line">        <span class="type">int</span> type, x, y;</span><br><span class="line">        cin &gt;&gt; type &gt;&gt; x &gt;&gt; y;</span><br><span class="line">        <span class="keyword">if</span> (type == <span class="number">0</span>) {</span><br><span class="line">            tcnt++;</span><br><span class="line">            qr[tcnt].l = x;</span><br><span class="line">            qr[tcnt].r = a[x];</span><br><span class="line">            qr[tcnt].id = y;</span><br><span class="line">            qr[tcnt].t = tcnt;</span><br><span class="line">            a[x] = y;</span><br><span class="line">        } <span class="keyword">else</span> {</span><br><span class="line">            qcnt++;</span><br><span class="line">            q[qcnt].l = x;</span><br><span class="line">            q[qcnt].r = y;</span><br><span class="line">            q[qcnt].id = qcnt;</span><br><span class="line">            q[qcnt].t = tcnt;</span><br><span class="line">        }</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = tcnt; i &gt;= <span class="number">1</span>; --i) {</span><br><span class="line">        a[ qr[i].l ] = qr[i].r;</span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">    <span class="built_in">sort</span>(q + <span class="number">1</span>, q + qcnt + <span class="number">1</span>);</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> l = <span class="number">1</span>, r = <span class="number">1</span>, t = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) ex[i] = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= M; i++) b[i] = <span class="number">0</span>;</span><br><span class="line">    res = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= qcnt; i++) {</span><br><span class="line">        <span class="built_in">work</span>(l, q[i].l);</span><br><span class="line">        l = q[i].l;</span><br><span class="line">        <span class="built_in">work</span>(r, q[i].r);</span><br><span class="line">        r = q[i].r;</span><br><span class="line">        <span class="keyword">while</span> (t &lt; q[i].t) {</span><br><span class="line">            t++;</span><br><span class="line">            <span class="built_in">change</span>(qr[t].l, qr[t].id);</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">while</span> (t &gt; q[i].t) {</span><br><span class="line">            <span class="built_in">change</span>(qr[t].l, qr[t].r);</span><br><span class="line">            t--;</span><br><span class="line">        }</span><br><span class="line">        <span class="type">int</span> lc = <span class="built_in">lca</span>(l, r);</span><br><span class="line">        <span class="built_in">add</span>(lc); <span class="comment">// 临时添加LCA点</span></span><br><span class="line">        ans[q[i].id] = res;</span><br><span class="line">        <span class="built_in">del</span>(lc); <span class="comment">// 移除LCA点以恢复状态</span></span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= qcnt; i++) {</span><br><span class="line">        cout &lt;&lt; ans[i] &lt;&lt; endl;</span><br><span class="line">    }</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure></article>
+<div class="article-footer">
+    <section id="license">
+      <div class="header"><span>许可协议</span></div>
+      <div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
+</div>
+    </section>
+    
+
+</div>
+
+<div class="related-wrap" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">较新文章</div><a href="/2026/01/28/Hydro-ai/">Hydro-ai</a></div><div class="item" id="next"><div class="note">较早文章</div><a href="/2025/12/25/P9478-NOI2023-%E6%96%B9%E6%A0%BC%E6%9F%93%E8%89%B2A%E9%A2%98%E8%A7%A3/">方格染色 - 题解</a></div></section></div>
+
+
+
+
+  <div class="related-wrap md-text" id="comments">
+    <section class='header cmt-title cap theme'>
+      <p>快来参与讨论吧~</p>
+
+    </section>
+    <section class='body cmt-body beaudar'>
+      
+
+<svg class="loading" style="vertical-align:middle;fill:currentColor;overflow:hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2709"><path d="M832 512c0-176-144-320-320-320V128c211.2 0 384 172.8 384 384h-64zM192 512c0 176 144 320 320 320v64C300.8 896 128 723.2 128 512h64z" p-id="2710"></path></svg>
+
+<div id="beaudar" repo="sanhaikeji/blog-comments" issue-term="pathname" theme="preferred-color-scheme" input-position="top" comment-order="desc" loading="false" branch="main"></div>
+
+    </section>
+  </div>
+
 
 
 <footer class="page-footer footnote"><hr><div class="text"><p>本站由 <a href="/">Sanhai</a> 使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.33.1">Stellar 1.33.1</a> 主题创建。<br>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
 </div></footer>
 <div class="main-mask" onclick="sidebar.dismiss()"></div></div><aside class="l_right">
-</aside><div class='float-panel'>
+<div class="widgets">
+
+
+
+<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">本文目录</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%B3%96%E6%9E%9C%E5%85%AC%E5%9B%AD-%E9%A2%98%E8%A7%A3"><span class="toc-text">糖果公园 题解</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A2%98%E7%9B%AE%E5%A4%A7%E6%84%8F"><span class="toc-text">题目大意</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90"><span class="toc-text">算法分析</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CODE"><span class="toc-text">CODE</span></a></li></ol></li></ol></div><div class="widget-footer"><a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/><path d="M7 3.338A9.95 9.95 0 0 1 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12c0-1.821.487-3.53 1.338-5"/></g></svg><span>回到顶部</span></a><a class="buttom" onclick="util.scrollComment()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><!-- Icon from Solar by 480 Design - https://creativecommons.org/licenses/by/4.0/ --><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M8 10.5h8M8 14h5.5M17 3.338A9.95 9.95 0 0 0 12 2C6.477 2 2 6.477 2 12c0 1.6.376 3.112 1.043 4.453c.178.356.237.763.134 1.148l-.595 2.226a1.3 1.3 0 0 0 1.591 1.592l2.226-.596a1.63 1.63 0 0 1 1.149.133A9.96 9.96 0 0 0 12 22c5.523 0 10-4.477 10-10c0-1.821-.487-3.53-1.338-5"/></svg><span>参与讨论</span></a></div></widget>
+</div></aside><div class='float-panel'>
   <button type='button' style='display:none' class='laptop-only rightbar-toggle mobile' onclick='sidebar.rightbar()'>
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg>
   </button>
@@ -591,6 +635,31 @@
 
 <!-- optional -->
 
+  <script type="module">
+  const el = document.querySelector('#comments #beaudar');
+  util.viewportLazyload(el, load_beaudar, false);
+
+  function load_beaudar() {
+    if (!el) return;
+    try {
+      el.innerHTML = '';
+    } catch (error) {
+      console.error(error);
+    }
+    const script = document.createElement('script');
+    script.src = 'https://beaudar.lipk.org/client.js';
+    script.async = true;
+    for (const key of Object.keys(el.attributes)) {
+      const attr = el.attributes[key];
+      if (['class', 'id'].includes(attr.name) === false) {
+        script.setAttribute(attr.name, attr.value);
+      }
+    }
+    el.appendChild(script);
+  }
+</script>
+
+
 
 
 <script defer>
@@ -791,6 +860,30 @@
     }
   });
 </script>
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/katex@0.16/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+
+<script id="MathJax-script" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+  MathJax.Hub.Config({
+    tex2jax: {
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  });
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     window.codeElements = document.querySelectorAll('.code');
